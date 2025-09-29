@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Zakharia - Electrical & Computer Engineering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">MZ</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-wrapper">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span>Mario Zakharia</span></h1>
+                    <p class="tagline">Controls & Electrical Engineer</p>
+                    <p class="hero-description">
+                        Senior at NJIT specializing in PLCs, embedded systems, and industrial automation. 
+                        I've helped optimize operations at Amazon data centers and saved $1M through innovative control solutions.
+                    </p>
+                    
+                    <div class="cta-buttons">
+                        <a href="https://www.linkedin.com/in/mario-zakharia-2691691b4/" target="_blank" class="btn btn-gradient">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            Connect on LinkedIn
+                        </a>
+                        <button onclick="alert('Resume file will be configured with actual hosting')" class="btn btn-outline">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume
+                        </button>
+                    </div>
+
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <span class="stat-value">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">10+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">$1M</span>
+                            <span class="stat-label">Cost Savings</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <div class="profile-image">
+                            <img src="C:\Users\ralph\Downloads\PortfolioBuilderAI\MarioZakharia\Mario.jpg" alt="Mario Zakharia">
+                        </div>
+                        <div class="floating-card card-1">
+                            <strong>🎓 NJIT 2025</strong>
+                        </div>
+                        <div class="floating-card card-2">
+                            <strong>⚡ IEEE Member</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">Building solutions for industry leaders</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">Controls Engineering Intern</h3>
+                            <p class="company-name">Holaday Parks Inc. • New Carlisle, IN</p>
+                        </div>
+                        <span class="job-date">May - Aug 2025</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Integrated BAS and control systems at multiple Amazon data centers</li>
+                        <li>Revised 30+ electrical schematics improving documentation accuracy</li>
+                        <li>Programmed PLCs using ladder logic for enhanced system reliability</li>
+                        <li>Collaborated with cross-functional teams for efficient project delivery</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">Electrical Engineering Intern</h3>
+                            <p class="company-name">Fives Intralogistics Corp. • Louisville, KY</p>
+                        </div>
+                        <span class="job-date">2023 & 2024</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Developed analysis tools contributing to $1M operational cost reduction</li>
+                        <li>Executed 20+ panel checkouts across 10+ commissioning sites</li>
+                        <li>Reduced documentation time by 15% through process improvements</li>
+                        <li>Programmed PLC systems using Studio 5000 and configured VFDs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Tools and technologies I work with</p>
+            </div>
+            
+            <div class="skills-bento">
+                <div class="skill-box">
+                    <h3>💻 Programming</h3>
+                    <div class="skill-list">
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">C++</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill">MATLAB</span>
+                        <span class="skill-pill">Ladder Logic</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>⚙️ Industrial</h3>
+                    <div class="skill-list">
+                        <span class="skill-pill">Studio 5000</span>
+                        <span class="skill-pill">PLCs</span>
+                        <span class="skill-pill">VFDs</span>
+                        <span class="skill-pill">AutoCAD Electrical</span>
+                        <span class="skill-pill">RSLogix</span>
+                        <span class="skill-pill">FactoryTalk</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>🔧 Embedded</h3>
+                    <div class="skill-list">
+                        <span class="skill-pill">Arduino</span>
+                        <span class="skill-pill">Raspberry Pi</span>
+                        <span class="skill-pill">IoT</span>
+                        <span class="skill-pill">Sensors</span>
+                        <span class="skill-pill">Microprocessors</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>🌍 Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-pill">English</span>
+                        <span class="skill-pill">French</span>
+                        <span class="skill-pill">Arabic</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Innovation through engineering</p>
+            </div>
+            
+            <div class="projects-carousel">
+                <div class="project-card">
+                    <div class="project-icon">🪖</div>
+                    <h3 class="project-name">Smart Helmet Insert</h3>
+                    <p>Universal safety system with pressure and impact sensors for construction and sports helmets. Features automatic emergency alerts and real-time IoT connectivity.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Embedded Systems</span>
+                        <span class="tech-tag">Sensors</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🔒</div>
+                    <h3 class="project-name">Dual Authentication Safe</h3>
+                    <p>Advanced security system with fingerprint and facial recognition. Achieved sub-2-second authentication while reducing access time by 30%.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">C++</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📻</div>
+                    <h3 class="project-name">AM Radio Receiver</h3>
+                    <p>Built functional crystal radio demonstrating signal processing principles. Applied circuit design for component selection and signal demodulation.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Circuit Design</span>
+                        <span class="tech-tag">Signal Processing</span>
+                        <span class="tech-tag">Electronics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-cta">
+                    <h2 class="section-title">Let's Build Something Together</h2>
+                    <p style="color: var(--gray); font-size: 1.1rem;">
+                        I'm seeking full-time opportunities in electrical and controls engineering starting January 2026. 
+                        Let's discuss how I can contribute to your team's success.
+                    </p>
+                </div>
+                
+                <div class="contact-links">
+                    <a href="mailto:mariozakharia.mls@gmail.com" class="contact-link">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <div style="font-weight: 600;">Email</div>
+                            <div style="font-size: 0.9rem; color: var(--gray);">mariozakharia.mls@gmail.com</div>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+19295448199" class="contact-link">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <div style="font-weight: 600;">Phone</div>
+                            <div style="font-size: 0.9rem; color: var(--gray);">(929) 544-8199</div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/mario-zakharia-2691691b4/" target="_blank" class="contact-link">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <div style="font-weight: 600;">LinkedIn</div>
+                            <div style="font-size: 0.9rem; color: var(--gray);">Connect with me</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mario Zakharia • Mount Laurel, NJ • All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
